@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta name="description" content="GoogleカレンダーをTwitterに投稿"/>
+    <meta name="keywords" content="twigcal,Googleカレンダー,Twitter"/>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/default.css"/>
+    <title>TwiGcal / GoogleカレンダーをTwitterに投稿！</title>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-17325176-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div id="header">
+          <img src="img/logo.png" />
+          <hr />
+        </div>
+        <div id="left">
+          <div id="leftcontent">
+            <br />
+            <ul>
+              <li><a href="index.html">TwiGcalとは</a></li>
+              <li><a href="twitter.html">Twitterの設定方法</a></li>
+              <li><a href="gmail.html">GMailの設定方法</a></li>
+              <li><a href="unregister.html">登録解除の方法</a></li>
+            </ul>
+            <br />
+            <h3>広告</h3>
+            <p class="news">
+              <script type="text/javascript"><!--
+                google_ad_client = "";
+                google_ad_slot = "";
+                google_ad_width = 120;
+                google_ad_height = 240;
+              //-->
+              </script>
+              <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+              </script>
+            </p>
+          </div>
+        </div>
+        <div id="main">
+          <div id="maincontent">
+            <h3 class="top_main_heading">GMailの設定方法</h3>
+            <p>
+              <img src="img/gmail_menu.png" /><br />
+              まず<a href="http://gmail.com">GMail</a>にアクセスしましょう。<br />
+              そうしたら、右上のメニューから「設定」をクリックします。
+              <br />
+            </p>
+            <h3>転送メールアドレスの登録</h3>
+            <p>
+              <img src="img/add_mail.png" /><br />
+              「メール転送とPoP/IMAP」のタブをクリックします。<br />
+              受信メールを、と書かれところから「新しいメールアドレスを追加」を選択します。<br />
+            </p>
+            <h3>転送メールアドレスの入力</h3>
+            <p>
+              <img src="img/input_mail.png" /><br />
+              転送先のメールアドレスに「twigcal@monysong.com」と入力します。<br /><br />
+              <img src="img/send_mail.png" /><br />
+              この画面がでたらアドレスの設定完了です。<br />
+              メールアドレスの認証に数分時間が掛かります。<br />
+            </p>
+            <h3>フィルタの作成</h3>
+            <p>
+              <img src="img/make_filter.png" /><br />
+              「フィルタ」のタブをクリックします。<br />
+              「新しいフィルタを作成」をクリックします。<br />
+            </p>
+            <h3>フィルタの設定</h3>
+            <p>
+              <img src="img/input_filter.png" /><br />
+              From:に「calendar-notification@google.com」と入力します。<br />
+              「次のステップ」ボタンをクリックします。<br /><br />
+              <img src="img/set_filter.png" /><br />
+              「次のアドレスに転送する」をチェックします。<br />
+              「twigcal@monysong.com」を選択します。<br />
+              「フィルタ作成」ボタンをクリックします。<br />
+               これでGoogleカレンダーの予定がTwitterに投稿されるようになります。
+            </p>
+            <h3>予定設定時の注意</h3>
+            <p class="boxed">
+              <img src="img/option.png" /><br />
+              Googleカレンダーの予定を追加する際メールを送信するように設定しなければ、<br />
+              Twitterへは投稿されません。<br />
+              逆にTwitterへ投稿したくない情報はメール設定しないようにしましょう。<br />
+              予定を追加する際のオプションの通知設定に注意してください。
+            </p>
+          </div>
+        </div>
+        <div id="footer">
+          <hr />
+          <p class="center">Copyright&copy; 2010 Monysong Corporation. All Rights Reserved.</p>
+          <p>&nbsp;</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
